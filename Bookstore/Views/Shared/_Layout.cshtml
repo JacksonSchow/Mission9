@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/MyStyle.css" />
+    <link rel="stylesheet" href="~/lib/font-awesome/fontawesome-free-6.0.0-web/css/all.min.css" />
+</head>
+<body>
+    <div class="bg-info text-white p-2">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col navbar-brand m-lg-2">Bookstore</div>
+                <div class="col-6 text-right navbar-brand m-lg-2">
+                    <vc:cart-summary></vc:cart-summary>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row m-1 p-1">
+        <div id="types" class="col-3">
+            <vc:types></vc:types>
+        </div>
+
+        <div class="col-9">
+            @RenderBody()
+        </div>
+    </div>
+</body>
+</html>

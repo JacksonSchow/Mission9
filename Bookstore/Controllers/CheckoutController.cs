@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Bookstore.Models;
 using Microsoft.AspNetCore.Mvc;
 
-// For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+// Controller for the checkout--we wanted to use a different controller because this is dealing with a different table and different data in the database
 
 namespace Bookstore.Controllers
 {

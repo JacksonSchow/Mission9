@@ -3,6 +3,8 @@ using System.Linq;
 using Bookstore.Models;
 using Microsoft.AspNetCore.Mvc;
 
+// Setting up the data for the Types view component
+
 namespace Bookstore.Components
 {
     public class TypesViewComponent : ViewComponent

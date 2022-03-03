@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 
+// Checkout model created for the checkout table in the database. Set up to store the information from the customer to the database
+
 namespace Bookstore.Models
 {
     public class Checkout

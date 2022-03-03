@@ -4,6 +4,8 @@ using Bookstore.Infrastructure;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 
+// Setting up the cart for a session
+
 namespace Bookstore.Models
 {
     public class SessionCart : Cart

@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Bookstore.Models;
 using Bookstore.Models.ViewModels;
 
-// For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+// Cart to handle the Index view and work with the books table in the database
 
 namespace Bookstore.Controllers
 {

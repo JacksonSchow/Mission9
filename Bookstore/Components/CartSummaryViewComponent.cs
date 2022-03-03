@@ -2,6 +2,8 @@
 using Bookstore.Models;
 using Microsoft.AspNetCore.Mvc;
 
+//Setting up the data for the cart view component
+
 namespace Bookstore.Components
 {
     public class CartSummaryViewComponent : ViewComponent

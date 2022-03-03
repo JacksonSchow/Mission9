@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 
+// Setting up a cart and methods the cart needs to use to show quantities and totals for the books added
+
 namespace Bookstore.Models
 {
     public class Cart
